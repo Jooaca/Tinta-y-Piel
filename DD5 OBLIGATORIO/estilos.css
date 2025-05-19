@@ -1,0 +1,570 @@
+ @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Manrope:wght@200..800&display=swap');
+
+
+ * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     font-family: "Manrope", "Bebas Neue", sans-serif;
+     text-decoration: none;
+ }
+
+ :root {
+     --deepblue: #213448;
+ }
+
+ body {
+     background-color: #DFD0B8;
+ }
+
+ #portada {
+     height: 60vh;
+     background-image: url(img/chicotatuaando.jpg);
+     background-size: cover;
+     background-position: top;
+     display: flex;
+     flex-direction: column;
+ }
+
+ header nav {
+     display: none;
+ }
+
+ #hero {
+     height: 100%;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     margin: 2em;
+     text-align: center;
+
+ }
+
+ header {
+     padding: 1em;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+ }
+
+
+
+ main {
+     text-align: center;
+     margin: auto;
+     width: 90%;
+     max-width: 700px;
+ }
+
+ #hero h1 {
+     font-size: 3.5em;
+     font-family: "Bebas Neue";
+     color: #94B4C1;
+     font-weight: 500;
+ }
+
+ .hide{ 
+    background-color: #94B4C1;
+    padding: 2%;
+    border-radius: 30px;
+ }
+
+ #formulario {
+     background-color: var(--deepblue);
+     border-radius: 30px;
+     padding: 2em 1em;
+     margin: 3em 1em;
+     color: #ffffff;
+     text-align: center;
+ }
+
+ #formulario h2 {
+     font-size: 2em;
+ }
+
+ #formulario p {
+     font-size: 20px;
+     margin: 0.5em;
+
+ }
+
+ #formulario input,
+ select {
+     width: 90%;
+     padding: 1em;
+     margin-top: 1em;
+     border: none;
+     border-radius: 8px;
+     font-size: 1em;
+ }
+
+ #formulario button {
+     display: inline-block;
+     background-color: #547792;
+     color: white;
+     padding: 0.75em;
+     border: none;
+     border-radius: 30px;
+     width: 90%;
+     margin: 1em 0em 0em 0em;
+     font-size: 1em;
+     font-weight: bold;
+     position: static;
+     cursor: pointer;
+ }
+
+ #fotos article {
+     height: 50vh;
+ }
+
+ #tatuajes {
+     background-size: cover;
+     background-position: center;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     text-align: center;
+ }
+
+
+ #tatuajes a {
+     display: inline-block;
+     background-color: var(--deepblue);
+     color: white;
+     padding: 0.75em;
+     border: none;
+     border-radius: 30px;
+     margin-top: 1em;
+     font-size: 1em;
+     font-weight: bold;
+     width: 40%;
+     text-align: center;
+ }
+
+ #tatuajes h2 {
+     color: #213448;
+     font-size: 2em;
+     margin: 0em 1em;
+ }
+
+
+ #masque {
+     background-image: url(img/chicatatuando.jpg);
+     background-color: #213448;
+     background-size: cover;
+     background-position: center;
+ }
+
+ #tattodragon {
+     background-image: url(img/tatuajedragon.jpg);
+     background-size: cover;
+     background-position: center;
+ }
+
+ #tattocabeza {
+     background-image: url(img/cabezatatuada.jpg);
+     background-size: cover;
+     background-position: center;
+ }
+
+ #tattoflores {
+     display: none;
+ }
+
+ #quees {
+
+     justify-content: center;
+     flex-direction: column; 
+     display: flex;
+ }
+
+ #quees div {
+     background-color: var(--deepblue);
+     padding: 2em;
+     margin-bottom: 2em;
+ }
+
+ #quees h2 {
+     text-align: center;
+     color: white;
+ }
+
+ #quees p {
+     text-align: justify;
+     margin: 0em 1em;
+     color: var(--deepblue);
+ }
+
+ #artistas h2 {
+    font-family: "Bebas Neue";
+     font-size: 3em;
+     margin-top: 2em;
+     text-align: center;
+     color: var(--deepblue);
+ }
+
+ .artista {
+     border: 2px solid var(--deepblue);
+     border-radius: 16px;
+     padding: 2em;
+     margin: 3em 1em 0em 1em;
+     text-align: center;
+ }
+
+ .artista img {
+     width: 100%;
+     margin-bottom: 1em;
+ }
+
+ .artista h3 {
+     font-size: 1.3em;
+     margin-top: 0.5em 0;
+     color: #213448;
+ }
+
+ .artista p {
+     font-size: 1em;
+     color: #213448;
+     margin: 0.5em 0 1em;
+ }
+
+ .artista a {
+     display: inline-block;
+     margin-top: 0.25em;
+     border: 2px solid var(--deepblue);
+     border-radius: 50px;
+     padding: 0.5em 2em;
+     background: transparent;
+     font-weight: bold;
+     font-size: 1em;
+     color: var(--deepblue);
+ }
+
+ .hide {
+     display: none;
+ }
+
+
+
+ footer {
+     background-color: var(--deepblue);
+     padding: 2em;
+     margin-top: 4em;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     color: white;
+     font-weight: 500;
+     font-size: 1.4em;
+ }
+
+ footer a {
+     display: inline-block;
+     margin: 0em 0.2em;
+ }
+
+ footer img {
+     width: 35px;
+ }
+
+ footer {
+     display: flex;
+     flex-direction: column;
+ }
+
+ footer div {
+     margin-top: 0.5em;
+ }
+
+ #logo {
+     height: 60px;
+ }
+
+ .escondida {
+     display: none;
+ }
+
+ #burger {
+     display: block;
+     margin-bottom: 10px;
+     width: 40px;
+     margin-right: 10px;
+     margin-top: 15px;
+ }
+
+ .etiqueta{ 
+    display: none;
+ }
+
+
+
+ /* TABLET */
+ @media all and (min-width:768px) {
+   #logo {
+         height: 60px;
+     }  
+     
+     #burger {
+         display: none;
+     }
+
+     header nav {
+         display: block;
+     }
+
+     nav a {
+         color: white;
+         font-weight: 500;
+         margin: 0 0.7em;
+     }
+
+     main {
+         font-size: 1.2em;
+     }
+
+     #formulario input,
+     select {
+         width: 35%;
+         margin-left: 0.5em;
+     }
+
+     #formulario button {
+         width: 25%;
+         margin-left: 0.5em;
+     }
+
+     #tattoflores {
+         display: block;
+         background-image: url(img/tatuajeflores.jpg);
+         background-size: cover;
+         background-position: center;
+
+     }
+
+     #fotos {
+         display: grid;
+         grid-template-columns: 1fr 1fr;
+         grid-template-rows: 1fr 1fr 1fr 1fr;
+     }
+
+     #fotos #masque {
+         height: 100%;
+         grid-row: span 2;
+     }
+
+     #fotos article {
+         height: 40vh;
+     }
+
+     #tattoflores {
+         grid-column: span 2;
+     }
+
+
+     #grid {
+         display: grid;
+         grid-template-columns: 1fr 1fr;
+         grid-template-rows: 1fr 1fr 1fr 1fr;
+     }
+
+
+     #Julio,
+     #Dante {
+         grid-row: span 1;
+     }
+
+     #Valentina, #Diego, #Rocio{ 
+grid-row: span 2;
+     }
+
+     .artista {
+         display: flex;
+         align-items: center;
+         justify-content: center;
+         flex-direction: column;
+         padding: 1.5em;
+     }
+
+     #artistas a {
+         font-size: 1.2em;
+     }
+
+     #tattoflores div {
+         width: 100%;
+     }
+
+     #tattoflores p {
+         margin: 0em 7em;
+     }
+
+     #hero {
+         align-items: flex-end;
+         text-align: left;
+         justify-content: flex-start;
+     }
+
+     footer {
+         flex-direction: row;
+         justify-content: flex-end;
+     }
+
+     footer div {
+         margin-left: 2em;
+     }
+ }
+
+
+
+ /* LAPTOP */
+ @media all and (min-width:1200px) {
+     
+     #logo{ height: 80px;
+
+
+     }
+
+     #hero {
+         flex-direction: column;
+         width: 50%;
+         justify-content: flex-end;
+         margin: 2em;
+     }
+
+      #hero h1 {
+     font-size: 4.5em;
+     font-family: "Bebas Neue";
+     color: #94B4C1;
+     font-weight: 500;
+     }
+
+     #hero p {
+         display: block;
+         color: #547792;
+     }
+
+     body {
+         position: relative;
+     }
+
+     #formulario {
+         position: absolute;
+         top: 170px;
+         right: 100px;
+         width: 25%;
+         font-size: 0.7em;
+     }
+
+     #formulario p {
+         font-size: 1.5em;
+     }
+
+     #fotos {
+         margin-top: 5em;
+         grid-template-columns: 1fr 1fr 1fr 1fr;
+         grid-template-rows: 1fr 1fr;
+     }
+
+     #formulario input,
+     select {
+         width: 90%;
+     }
+
+     #formulario button {
+         width: 90%;
+         transition: 0.3s;
+     }
+
+     #tattoflores {
+         grid-column: span 1;
+         height: 100%;
+     }
+
+     #tattodragon {
+         grid-column: span 2;
+     }
+
+     #tattoflores p {
+         margin: 1em;
+     }
+
+     #grid {
+         display: flex;
+         flex-wrap: wrap;
+         justify-content: center;
+     }
+
+     #artistas {
+         display: block;
+     }
+
+     #artistas article {
+         align-items: flex-start;
+         text-align: justify;
+     }
+
+     #artistas h2 {
+         margin-left: 0.5em;
+         text-align: left;
+     }
+
+     .artista {
+         font-size: 1em;
+         width: 30%;
+         position: relative;
+     }
+
+     .contenedor {
+         max-width: 1200px;
+         margin-left: auto;
+         margin-right: auto;
+     }
+
+     nav a {
+         transition: 0.2s;
+     }
+
+     nav a:hover {
+         color: var(--deepblue);
+     }
+
+     #formulario button:hover {
+         background-color: #547792;
+         color: white;
+     }
+
+     #tatuajes a {
+         transition: 0.2s;
+     }
+
+     #tatuajes a:hover {
+         background-color: #547792;
+     }
+
+     .artista a {
+         transition: 0.2s;
+     }
+
+     .artista a:hover {
+         background-color: var(--deepblue);
+         color: white;
+     }
+
+     .escondida {
+         display: block;
+     }
+
+      .etiqueta{ 
+    display: block;
+    position: absolute;
+    top: 20px;
+    right: 0%;
+    background-color: #547792;
+    padding: 3%;
+    color: #94B4C1;
+    border-radius: 10px 0px 0px 10px;
+
+
+
+ }
+ }
